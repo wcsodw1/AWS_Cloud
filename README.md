@@ -6,14 +6,13 @@ My new AWS CloudService Project
 
 The project with Human-Pose and detecting the predict joint in human body.
 
-1.Openpose Model : 
-  - 19 Body-Joint-Detected 
-  - Model : Caffemodel <br>
- ![image](data/img/TGB3P.jpg)
+1.EC2 : Built your own machine in amazon website service
+ ![image](../../../Data/AWS/img/TGB3P.jpg)
+[20211205 TGB和平大安週日聯盟C6組 金色小旋風 vs 康潔美牙醫](20211205_TGBL/README.md) <hr/>
 
 
-2.Deepcut Model : 
+2.S3 : 
   - 15 Body-Joint-Detected 
   - Model : ResNet152/Caffemodel
 
-![image](data/img/TGB0418_FreeThrow.jpg)
+ ![image](../../../Data/AWS/img/TGB3P.jpg)
