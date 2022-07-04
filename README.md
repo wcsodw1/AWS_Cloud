@@ -13,6 +13,5 @@ The project with Human-Pose and detecting the predict joint in human body.
 
 2.S3 : 
   - 15 Body-Joint-Detected 
-  - Model : ResNet152/Caffemodel
 
  ![image](../../../Data/AWS/img/TGB3P.jpg)
