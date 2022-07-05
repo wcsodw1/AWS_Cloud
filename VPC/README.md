@@ -18,7 +18,7 @@
         可從Route Table是否擁有Internet Gateway去判斷 (IPV4/ IGW(internet gateway))
     - B.例外 : nat-gw 能使得private-Subnet 連到 Public
         - 流程 : Private subnet -> 先往 Public subnet -> Internet Gateway(igw) -> Internet
-![image](../data/img/VPC/VPC_PublicAndPrivate_Subnet.png)
+![image](../data/img/VPC/VPC_PublicPrivate_Subnet.png)
 
 
 ## 3.
