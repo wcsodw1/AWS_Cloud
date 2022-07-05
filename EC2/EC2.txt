@@ -1,0 +1,6 @@
+EC2 建立 : 
+
+1.啟動AMI(有各種選擇) Ubuntu/ RED Hat 等
+  - 選擇 Instance(就是選擇哪種amazon機器的意思)
+2. 
+3.
