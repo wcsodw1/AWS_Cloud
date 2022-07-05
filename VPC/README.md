@@ -11,12 +11,13 @@
 ![image](../data/img/VPC/framework_with_VPC.png)
 
   
-## 2.Classificate VPC : 
+## 2.Public Subnet v.s Private Subnet ? : 
 - Subnet?  Subnet為一個可以自由設置VPC網段的集合, 裡面可含有幾千幾萬個IP, 並將很多的IP視為一個子網段.
 - Public Subnet v.s Private Subnet ?
     - A.如何區分? 是否能做對外連線的動作!
-        可從Route Table去判斷 (IPV4/ IGW(internet gateway))
-    - B.
+        可從Route Table是否擁有Internet Gateway去判斷 (IPV4/ IGW(internet gateway))
+    - B.例外 : nat-gw 能使得private-Subnet 連到 Public
+        - 流程 : Private subnet -> 先往 Public subnet -> Internet Gateway(igw) -> Internet
 ![image](../data/img/VPC/VPC_PublicAndPrivate_Subnet.png)
 
 
