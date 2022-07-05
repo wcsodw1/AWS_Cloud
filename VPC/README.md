@@ -1,15 +1,23 @@
 # Amazon VPC(Virtual Private Cloud) : 
 <hr/>
 
-## 1.Framework with VPC
-![image](../data/img/VPC/framework_with_VPC.png)
+## 1.Framework with VPC : 
 
 - Describe framework Flow : <BR>
-    - -> 1.User(使用者/客戶) <BR>
-    - -> 2.Route53 <BR>
-    - -> 3.VPC內部之Load Balance將流量分到不同的EC2 <BR>
-    - -> 4.EC2 : 查詢資料庫(Optional) or 透過S3將使用者所需的檔案(圖片/影片)回應給終端的使用者 <BR>
+    - 1.User(使用者/客戶) <BR>
+    - 2.Route53 <BR>
+    - 3.VPC內部之Load Balance將流量分到不同的EC2 <BR>
+    - 4.EC2 : 查詢資料庫(Optional) or 透過S3將使用者所需的檔案(圖片/影片)回應給終端的使用者 <BR>
+![image](../data/img/VPC/framework_with_VPC.png)
 
   
-## 2.
-## 3.  
+## 2.Classificate VPC : 
+- Subnet?  Subnet為一個可以自由設置VPC網段的集合, 裡面可含有幾千幾萬個IP, 並將很多的IP視為一個子網段.
+- Public Subnet v.s Private Subnet ?
+    - A.如何區分? 是否能做對外連線的動作!
+        可從Route Table去判斷 (IPV4/ IGW(internet gateway))
+    - B.
+![image](../data/img/VPC/VPC_PublicAndPrivate_Subnet.png)
+
+
+## 3.
