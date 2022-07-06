@@ -25,4 +25,4 @@
 - What is NACL? 
     - A.NACL 是一個Subnet Level的防火牆
     - B.範圍 : 以一個Subnet為單位設置防火牆
-    - C.Stateless防火牆 : 進出皆要檢查
+    - C.Stateless防火牆 : 進出皆要檢查(見fig2 Public Subnet)
