@@ -16,9 +16,13 @@
 - Public Subnet v.s Private Subnet ?
     - A.如何區分? 是否能做對外連線的動作!
         可從Route Table是否擁有Internet Gateway去判斷 (IPV4/ IGW(internet gateway))
-    - B.例外 : nat-gw 能使得private-Subnet 連到 Public
+    - B.Private Subnet能否連線到外部? A:可以!先連到Public Subnet 例外 : nat-gw 能使得private-Subnet 連到 Public
         - 流程 : Private subnet -> 先往 Public subnet -> Internet Gateway(igw) -> Internet
 ![image](../data/img/VPC/VPC_PublicPrivate_Subnet.png)
 
 
-## 3.
+## 3.NACL(Network access control list) : 
+- What is NACL? 
+    - A.NACL 是一個Subnet Level的防火牆
+    - B.範圍 : 以一個Subnet為單位設置防火牆
+    - C.Stateless防火牆 : 進出皆要檢查
