@@ -24,7 +24,7 @@
   - key Pair(.pem)
 
 ![image](../data/img/EC2/Create_Instance.png)
-![image](../data/img/EC2/Create_Instance_ok.png)
+![image](../data/img/EC2/Create_Instance_Finish.png)
 <hr/>
 
 ## 3.
